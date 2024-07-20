@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SISC - Sudan Integrated Services Center</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans Arabic', sans-serif;
+            background-color: #FFFFFF;
+            color: #000000;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #007BFF;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 50px;
+            height: auto;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px;
+        }
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .search-bar button {
+            padding: 10px;
+            background-color: #28A745;
+            color: #FFFFFF;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .quick-links {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px;
+        }
+        .quick-links .service-icon {
+            text-align: center;
+            margin: 10px;
+        }
+        .quick-links .service-icon img {
+            width: 100px;
+            height: 100px;
+        }
+        .news-updates {
+            margin: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+        footer .contact-info, footer .social-media, footer .quick-links {
+            margin: 10px 0;
+        }
+        footer .social-media a {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Sudan.svg" alt="علم السودان">
+        <h1>Sudan Integrated Services Center (SISC)</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#">الخدمات</a></li>
+            <li><a href="#">تتبع طلبك</a></li>
+            <li><a href="#">حجز موعد</a></li>
+            <li><a href="#">الدعم</a></li>
+            <li><a href="#">تسجيل الدخول/تسجيل</a></li>
+        </ul>
+    </nav>
+    <div class="search-bar">
+        <input type="text" placeholder="ابحث عن الخدمة التي تحتاجها">
+        <button type="submit">بحث</button>
+    </div>
+    <div class="quick-links">
+        <div class="service-icon">
+            <img src="visa_icon.png" alt="خدمات التأشيرات">
+            <p>خدمات التأشيرات</p>
+        </div>
+        <div class="service-icon">
+            <img src="passport_icon.png" alt="تجديد جوازات السفر">
+            <p>تجديد جوازات السفر</p>
+        </div>
+        <div class="service-icon">
+            <img src="attestation_icon.png" alt="تصديق الوثائق">
+            <p>تصديق الوثائق</p>
+        </div>
+        <div class="service-icon">
+            <img src="health_icon.png" alt="الخدمات الصحية">
+            <p>الخدمات الصحية</p>
+        </div>
+        <div class="service-icon">
+            <img src="education_icon.png" alt="الخدمات التعليمية">
+            <p>الخدمات التعليمية</p>
+        </div>
+    </div>
+    <div class="news-updates">
+        <h2>آخر الأخبار والتحديثات</h2>
+        <p>هنا يمكن وضع بعض الأخبار الحديثة والتحديثات المتعلقة بخدمات المركز.</p>
+    </div>
+    <footer>
+        <div class="contact-info">
+            <p>العنوان: المهندسين مكتب سيدنا الشفيع</p>
+            <p>الهاتف: 01500000698</p>
+            <p>البريد الإلكتروني: shareef@phoenix.sd</p>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook_icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter_icon.png" alt="Twitter"></a>
+            <a href="#"><img src="linkedin_icon.png" alt="LinkedIn"></a>
+        </div>
+        <div class="quick-links">
+            <a href="#">سياسة الخصوصية</a>
+            <a href="#">الشروط والأحكام</a>
+            <a href="#">الأسئلة الشائعة</a>
+        </div>
+    </footer>
+</body>
+</html>
